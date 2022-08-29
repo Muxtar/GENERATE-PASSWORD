@@ -1,0 +1,148 @@
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #111017;
+}
+
+div.base {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.main {
+  width: 30%;
+  margin-top: -50px !important;
+}
+
+div.main-in {
+  margin: 10px !important;
+  padding: 10px !important;
+}
+
+div.title {
+  color: rgb(150, 150, 150);
+  text-align: center;
+  padding: 10px;
+}
+div.title h1 {
+  font-size: 25px;
+}
+
+div.back {
+  background-color: #24232b;
+  color: rgb(150, 150, 150);
+  padding: 20px !important;
+}
+
+div.result {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 15px !important;
+}
+div.result input {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+}
+div.result i {
+  display: block;
+  position: absolute;
+  right: 10px;
+  font-size: 22px;
+}
+
+div.len {
+  display: flex;
+}
+div.len p {
+  flex-grow: 1;
+}
+
+div.range {
+  margin: 15px 0 !important;
+}
+div.range input {
+  -webkit-appearance: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #111017;
+  color: white;
+  border-radius: 10px;
+}
+div.range input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: rgb(150, 150, 150);
+  border-radius: 50%;
+}
+
+div.checkbox {
+  margin: 10px 0 !important;
+}
+div.checkbox input {
+  accent-color: #a4ffaf;
+  margin-right: 5px !important;
+}
+div.checkbox input:checked + label {
+  color: rgb(200, 200, 200);
+}
+
+div.password-about {
+  padding: 15px !important;
+  background-color: #18171f;
+  display: flex;
+  margin-bottom: 15px !important;
+}
+div.password-about p {
+  flex-grow: 1;
+}
+div.password-about .divs {
+  display: flex;
+}
+div.password-about .divs div {
+  border: 1px solid rgb(150, 150, 150);
+  padding: 3px !important;
+  margin: 3px !important;
+}
+
+div.generate {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+div.generate input {
+  display: block;
+  width: 100%;
+  background-color: #a4ffaf;
+  border: none;
+  padding: 10px !important;
+}
+div.generate i {
+  position: absolute;
+  right: 5px;
+}
+
+.cp {
+  color: #a4ffaf;
+}
+
+.fa-clipboard {
+  color: rgb(150, 150, 150);
+}/*# sourceMappingURL=ders1.css.map */

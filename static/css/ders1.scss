@@ -1,0 +1,153 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+$color_desing: #a4ffaf;
+// $color_desing: red;
+
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #111017;
+}
+
+div.base{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.main{
+    // border: 1px solid red;
+    width: 30%;
+    margin-top: -50px !important;
+}
+
+div.main-in{
+    // border: 1px solid red;
+    margin: 10px !important;
+    padding: 10px !important;
+
+}
+div.title{
+    color: rgb(150, 150, 150);
+    text-align: center;
+    padding: 10px;
+    h1{
+        font-size: 25px;
+    }
+    
+}
+div.back{
+    background-color: #24232b;
+    color: rgb(150, 150, 150);
+    padding: 20px !important;
+}
+
+div.result{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px !important;
+
+    input{
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        color: rgb(150, 150, 150);
+        font-size: 25px;
+    }
+    i{
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+div.len{
+    // border: 1px solid red;
+    display: flex;
+    p{
+        flex-grow: 1;
+    }
+}
+
+div.range{
+    margin: 15px 0 !important;
+    input{
+        -webkit-appearance: none;
+        background-color: white;
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: #111017;
+        color: white;
+        border-radius: 10px;
+    }
+    input::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        height: 15px;
+        width: 15px;
+        background-color: rgb(150, 150, 150);
+        border-radius: 50%;
+    }
+}
+
+div.checkbox{
+    margin: 10px 0 !important;
+    input{
+        accent-color: $color_desing;
+        margin-right: 5px !important;
+        &:checked + label{
+            color: rgb(200, 200, 200);
+        }
+    }
+}
+
+div.password-about{
+    padding: 15px !important;
+    background-color: #18171f;
+    display: flex;
+    margin-bottom: 15px !important;
+    p{
+        flex-grow: 1;
+    }
+    .divs{
+        display: flex;
+        div{
+            border: 1px solid rgb(150, 150, 150);
+            // border: 1px solid red;
+            padding: 3px !important;
+            margin: 3px !important;
+        }
+    }
+}
+div.generate{
+    position: relative;
+    display: flex;
+    align-items: center;
+    input{
+        display: block;
+        width: 100%;
+        background-color: $color_desing;
+        border: none;
+        padding: 10px !important;
+    }
+    i{
+        position: absolute;
+        right: 5px;
+
+    }
+}
+.cp{
+    color: $color_desing;
+}
+.fa-clipboard{
+    color: rgb(150, 150, 150);
+}
